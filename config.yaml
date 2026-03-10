@@ -1,0 +1,71 @@
+# =============================================================
+# F1 RSS → Slack config
+# Edit keywords and sources as needed.
+# =============================================================
+
+keywords:
+  # Technical / Engineering
+  - aerodynamics
+  - aero
+  - downforce
+  - diffuser
+  - floor
+  - sidepod
+  - suspension
+  - power unit
+  - engine
+  - hybrid
+  - MGU-K
+  - MGU-H
+  - ERS
+  - gearbox
+  - differential
+  - tire
+  - tyre
+  - compound
+  - degradation
+  - strategy
+  - pit stop
+  - undercut
+  - overcut
+  - DRS
+  - technical directive
+  - regulation
+  - homologation
+  - wind tunnel
+  - CFD
+  - setup
+  - ride height
+  - rake
+  - stiffness
+  - ballast
+  - weight distribution
+  - upgrade
+  - development
+  - porpoising
+  - bouncing
+  - flexi wing
+  - technical
+
+  # F1-specific identifiers (to keep it F1-only)
+  - Formula 1
+  - Formula One
+  - F1
+  - Grand Prix
+  - FIA
+  - FOM
+
+sources:
+  rss:
+    - https://www.autosport.com/rss/f1/news/
+    - https://www.motorsport.com/rss/f1/news/
+    - https://the-race.com/feed/
+    - https://www.racefans.net/feed/
+    - https://www.formula1.com/content/fom-website/en/latest/all.xml
+
+  youtube:
+    # Replace with actual channel IDs — find them at:
+    # https://www.youtube.com/@ChannelName/about → view source → "channelId"
+    - UCxxxxxx   # e.g. Chain Bear: UC6hAYNOWMDHnC6OlRqmGhEA
+    - UCyyyyyy   # e.g. Scott Mansell / Driver61: UCaRbDEHMqMXnfMjEHUxGmSQ
+    - UCzzzzzz   # e.g. F1 official: UCB_qr75-ydFVKSF9Dmo6izg
